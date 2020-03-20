@@ -1,0 +1,23 @@
+TS 怎么影响了我的思考方式
+对前端开发者来说，TS 能强化了「面向接口编程」这一理念。 
+下面这条语句，大家都很熟悉，是 DOM 提供依据 id 获取元素的方法。    
+  
+const a = document.getElementById("a")       
+  
+使用TS之前，我忽略了document.getElementById的返回值还可能是null,使用 TS，在vsc中就会明确的提醒我们 a 的值可能为 null。
+我们可以通过改“a”为“ID”
+实际上
+  使用TS后，使用 TS 的过程就是一种学习的过程,查文档的时间明显少了很多。无论是库还是原生的 js 或者 nodejs，甚至是自己团队其它成员定义的类型。
+结合 VSCode ，会有非常智能的提醒，也可以很方便看到相应的接口的确切定义。使用其实就是在加深理解。
+
+
+一些 TS 中的新概念
+编程实际上就是对数据进行操作和加工的过程。类型系统能辅助我们对数据进行更为准确的操作。TypeScript 的核心就在于其提供一套类型系统，让我们对数据类型有所约束。约束有时候很简单，有时候很抽象。
+
+TS 支持的类型如下：boolean,number,string,[],Tuple,enum,any,void,null,undefined,never,Object。
+
+
+
+除了了解Ts如何工作，这是另外一篇比较好的了解 TS 运行原理的资料。
+https://dev.to/remojansen/learn-how-to-contribute-to-the-typescript-compiler-on-github-through-a-real-world-example-4df0
+推荐阅读
